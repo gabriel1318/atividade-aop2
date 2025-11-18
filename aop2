@@ -1,0 +1,61 @@
+...
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Blog Lifestyle</div>       <div><a href="contatos.html">Fale conosco</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // Atualiza o ano do rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+2. bem-estar.html (Alterado de year2 para year)
+HTML
+
+...
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Blog Lifestyle</div>       <div><a href="contatos.html">Contatos</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script> </body>
+</html>
+3. moda.html (Alterado de year3 para year)
+HTML
+
+...
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Blog Lifestyle</div>       <div><a href="contatos.html">Contatos</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script> </body>
+</html>
+4. viagens.html (Alterado de year4 para year)
+HTML
+
+...
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Blog Lifestyle</div>       <div><a href="contatos.html">Contatos</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script> </body>
+</html>
+5. contatos.html (Alterado de year5 para year)
+HTML
+
+...
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Blog Lifestyle</div>       <div><a href="index.html">Voltar à Home</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script> </body>
+</html>
